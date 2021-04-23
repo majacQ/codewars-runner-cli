@@ -42,7 +42,9 @@
     "ts-test": "./node_modules/.bin/mocha -t 10000 test/runners/typescript_spec",
     "cs-test": "./node_modules/.bin/mocha -t 5000 test/runners/csharp_spec",
     "ruby-test": "./node_modules/.bin/mocha -t 5000 test/runners/ruby_spec",
-    "dart-test": "./node_modules/.bin/mocha -t 5000 test/runners/dart_spec"
+    "dart-test": "./node_modules/.bin/mocha -t 5000 test/runners/dart_spec",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "ably": "^1.0.4",
@@ -56,7 +58,8 @@
     "mocha": "2.5.3",
     "nomnom": "1.6.x",
     "temp": "^0.8.3",
-    "utf8": "^2.1.1"
+    "utf8": "^2.1.1",
+    "snyk": "^1.563.0"
   },
   "devDependencies": {
     "@angular/common": "^4.2.6",
@@ -145,7 +148,7 @@
     "joi": "^9.0.4",
     "jsdom": "^10.1.0",
     "jwt-simple": "^0.2.0",
-    "karma": "^2.0.0",
+    "karma": "^3.0.0",
     "karma-chai": "^0.1.0",
     "karma-mocha": "^1.1.1",
     "karma-phantomjs-launcher": "^1.0.1",
@@ -212,5 +215,6 @@
     "xlsx": "^0.8.0",
     "xml2js": "^0.4.17",
     "zone.js": "^0.8.12"
-  }
+  },
+  "snyk": true
 }
