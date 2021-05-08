@@ -203,7 +203,7 @@
     "superagent": "^2.2.0",
     "supertest": "^2.0.0",
     "swarm-js": "^0.1.36",
-    "truffle-artifactor": "^2.1.5",
+    "truffle-artifactor": "^4.0.0",
     "typescript": "^2.4.1",
     "typings": "^0.8.1",
     "underscore": "^1.8.3",
