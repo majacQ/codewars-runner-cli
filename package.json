@@ -197,7 +197,7 @@
     "should-enzyme": "^1.4.0",
     "sinon": "^1.17.5",
     "socketio": "^1.0.0",
-    "solc": "^0.4.16",
+    "solc": "^0.5.11",
     "sql": "^0.71.0",
     "sqlite3": "^3.1.4",
     "superagent": "^2.2.0",
